@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+     
+      <input type="text" #usNm class="form-control">
+      <input type="password" #usPwd class="form-control">
+      <input type="button" value="Submit" class="btn btn-success" (click)="onGo(usNm.value,usPwd.value)">
+       <a [routerLink]="['/second']" >Second</a>
+    </div>
+  </div>
+</div>
